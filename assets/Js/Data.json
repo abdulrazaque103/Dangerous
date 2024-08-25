@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name":" Cactus",
+        "scientific_name":"Opuntia ficus-indica",
+        "price": 45,
+        "image": "assets/image/indoor-cactus.jpg",
+        "category": "indoor",
+        "Origin_Country":" American",
+        "Watering_Cycle":" 2-3 weeks",
+        "Light_Requirements":"Direct sunlight",
+        "Soil_Type":"Sandy",
+        "description": "Cacti are a family of plants known for their ability to thrive in arid environments. They are characterized by thick, fleshy stems that store water, spines instead of leaves, and a unique ability to perform photosynthesis through their stems."
+    },
+    {
+        "id": 2,
+        "name":" Protea",
+        "scientific_name":"  Protea magnifica",
+        "price": 30,
+        "image": "assets/image/outdoor-protea.jpg",
+        "category": "outdoor",
+        "Origin_Country":"South Africa",
+        "Watering_Cycle":" 1-2 weeks",
+        "Light_Requirements":"full sun to thrive",
+        "Soil_Type":"Acidic",
+        "description": "Proteas are striking, large-flowered plants native to Southern Africa, known for their unique, spiky blooms and leathery foliage. They are characterized by their large, often colorful flowers, which can range from pink and red to white and yellow, and their tough, evergreen leaves."
+    },
+    {
+        "id": 3,
+        "name":"Fat Plant",
+        "scientific_name":"  Echeveria elegans",
+        "price": 55,
+        "image": "assets/image/succulent-fat-plants.jpg",
+        "category": "succulents",
+        "Origin_Country":"South Africa",
+        "Watering_Cycle":" 2-3 weeks",
+        "Light_Requirements":"Bright, indirect sunlight",
+        "Soil_Type":"cactus or succulent potting soil",
+        "description": "Fat Plants are a colloquial term for succulents and cacti characterized by their thick, fleshy leaves or stems designed to store water. These plants are typically low-maintenance and ideal for dry environments. They come in various shapes, sizes, and colors, often featuring rosette formations or tall, cylindrical stems."
+    }
+    
+]

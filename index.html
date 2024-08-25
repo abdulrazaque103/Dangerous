@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <title>PlantPalace</title>
+   </head>
+   <body>
+      <!-- Header -->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">PlantPalace</a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="index.html" class="nav__link">Home</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#Catalog" class="nav__link">Catalog</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#plant" class="nav__link">Plant Info</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#contact" class="nav__link">Contact Us</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#feedback" class="nav__link">Feedback</a>
+                  </li>
+               </ul>
+
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-line"></i>
+               </div>
+            </div>
+
+            <div class="nav__actions">
+               
+               <i class="ri-search-line nav__search" id="search-btn"></i>
+               <i class="ri-shopping-cart-line nav__login" id="login-btn"></i>
+
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line"></i>
+               </div>
+            </div>
+         </nav>
+      </header>
+
+      <!-- Search -->
+      <div class="search" id="search">
+         <form action="" class="search__form">
+            <i class="ri-search-line search__icon"></i>
+            <input type="search" placeholder="What are you looking for?" class="search__input">
+         </form>
+         <i class="ri-close-line search__close" id="search-close"></i>
+      </div>
+
+      <!-- Hero Section -->
+      <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Bringing Nature Closer to You</h1>
+            <p>Explore our wide selection of plants and garden essentials.</p>
+            <a href="#Catalog" class="cta-button">Shop Now</a>
+        </div>
+    </section>
+
+
+    <!-- catalog SECTION -->
+   
+    <section class="card-section" id="Catalog">
+
+        <div class="card-header">
+            <h2>Catalogs Plants</h2>
+
+            <div class="filters">
+                <select class="filter" id="filter-category">
+                    <option value="all">All Categories</option>
+                    <option value="indoor">Indoor</option>
+                    <option value="outdoor">Outdoor</option>
+                    <option value="succulents">succulents</option>
+                </select>
+    
+                <select class="sort" id="sort-price">
+                    <option value="none">Sort by</option>
+                    <option value="low-to-high">low-to-high</option>
+                    <option value="high-to-low">high-to-low</option>
+                    <!-- <option value="55">45</option> -->
+                </select>
+            </div>
+        </div>
+    
+        <div class="card-container" id="card-container">
+            <!-- Cards will be injected here -->
+        </div>
+    </section>
+    
+     <!-- plant info Section -->
+
+     <section class="plant-info-wrapper" id="plant">
+        <div class="plant-info" id="plant-info">
+            <!-- Plant details will be injected here -->
+        </div>
+    </section>
+    
+    
+     <!-- feedback Section-->
+    <section class="feedback-wrapper" id="feedback">
+        <div class="feedback-section">
+            <div class="feedback-left">
+                <img src="assets/image/feedback.jpg" alt="Feedback Image">
+            </div>
+            <div class="feedback-right">
+                
+                <form action="index.html" autocomplete="off">
+                    <h2 class="feedback-heading">Give Us Your Valuable Feedback</h2>
+                    <div class="input-container">
+                      <input type="text" name="name" id="name" class="input" />
+                      <label for="">Username</label>
+                      <span>Username</span>
+                    </div>
+                    <div class="input-container">
+                      <input type="email" name="email" id="email" class="input" />
+                      <label for="">Email</label>
+                      <span>Email</span>
+                    </div>
+                    <div class="input-container textarea">
+                      <textarea name="message" id="message" class="input"></textarea>
+                      <label for="">Message</label>
+                      <span>Message</span>
+                    </div>
+                    <input type="submit" value="Send Message" onclick="Sendmail()" class="btn-fb" />
+                  </form>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="contact-us-wrapper" id="contact">
+        <div class="contact-us-section">
+            <h2 class="contact-heading">Contact Us</h2>
+            <div class="contact-details">
+                <div class="contact-item">
+                    <i class="fas fa-envelope contact-icon"></i>
+                    <p class="contact-info">dangerous@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone contact-icon"></i>
+                    <p class="contact-info">+92 311 3062136</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt contact-icon"></i>
+                    <p class="contact-info">Defence, Hyderabad, Pak</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>PlantPalace</h3>
+                <p>Your ultimate destination for exquisite plants and gardening essentials. Explore the beauty of nature with us.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#Catalog">Catalog</a></li>
+                    <li><a href="#plant">Plant</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#feedback">Feedback</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Policy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Conditions</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <hr>
+            <p>Powered by Dangerous Team © All rights reserved.</p>
+        </div>
+    </footer>
+      
+    
+      <!-- Main Js -->
+      <script src="assets/js/script.js"></script>
+      <script src="assets/js/Data.json"></script>
+      <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+      </script>
+        <script type="text/javascript">
+        (function(){
+            emailjs.init({
+                publicKey: "KD-DQObyDmABm4S9F",
+            });
+        })();
+        </script>
+   </body>
+</html>
+
